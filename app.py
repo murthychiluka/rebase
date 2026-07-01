@@ -3,7 +3,7 @@ import os windows
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/different")
 def hello():
     return "updated Flask sample application on azure hghapp service updated verrsion-4"
 
